@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/App render 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [MockFunction],
+      "getState": [MockFunction],
+      "subscribe": [MockFunction],
+    }
+  }
+>
+  <Router
+    history={Object {}}
+  >
+    <AppContextProvider>
+      <Switch>
+        <Route
+          exact={true}
+          path="/login"
+        />
+        <Route
+          exact={true}
+          path="/dashboard"
+        />
+        <Route
+          exact={true}
+          path="/approval"
+        />
+        <Route
+          exact={true}
+          path="/company-list"
+        />
+        <Route
+          exact={true}
+          path="/pratinjau/:id"
+        />
+        <PageBase>
+          <Route
+            exact={true}
+            path="/profile/:user"
+          />
+          <Route
+            exact={true}
+            path="/blog"
+          />
+          <Route
+            exact={true}
+            path="/search-blog/:query?"
+          />
+          <Route
+            exact={true}
+            path="/blog-content/:id"
+          />
+          <Route
+            exact={true}
+            path="/video-content/:id"
+          />
+          <Route
+            exact={true}
+            path="/"
+          />
+          <Route
+            exact={true}
+            path="/blog/video-list/:query?"
+          />
+          <Route
+            exact={true}
+            path="/calculator"
+          />
+          <Route
+            exact={true}
+            path="/create-blog"
+          />
+          <Route
+            exact={true}
+            path="/create-video"
+          />
+          <Route
+            exact={true}
+            path="/forum"
+          />
+          <Route
+            exact={true}
+            path="/forum-detail"
+          />
+          <Route
+            exact={true}
+            path="/profile-expert"
+          />
+          <Route
+            exact={true}
+            path="/expert"
+          />
+          <Route
+            exact={true}
+            path="/expert/:id"
+          />
+          <Route
+            exact={true}
+            path="/info-budidaya"
+          />
+          <Route
+            exact={true}
+            path="/info-budidaya-detail"
+          />
+          <Route
+            exact={true}
+            path="/kebijakan-privasi"
+          />
+        </PageBase>
+        <Route />
+      </Switch>
+    </AppContextProvider>
+  </Router>
+</Provider>
+`;
